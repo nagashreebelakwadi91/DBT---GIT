@@ -4,11 +4,6 @@ with
         select id as customer_id, first_name, last_name from {{ ref("stg_customers") }}
  
     ),
- 
-   country_code as(
-    
-   )
-
 
     orders as (
  
